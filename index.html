@@ -3631,6 +3631,9 @@
         mask-repeat: no-repeat;
         width: 24px;
       }
+      #__framer-editorbar-container{
+        display: none !important;
+      }
     </style>
     <!-- Start of headEnd -->
 
@@ -3641,6 +3644,20 @@
     <!-- Start of bodyStart -->
 
     <!-- End of bodyStart -->
+
+    <!-- <script>
+      let element = document.createElement("div");
+      element.id = '__framer-editorbar-container';
+      element.style.display = 'none'
+      // let intervalId = setInterval(() => {
+      //   let element = document.getElementById("__framer-editorbar-container");
+      //   console.log({element})
+      //   if (element) {
+      //     element.style.display = "none";
+      //     clearInterval(intervalId);
+      //   }
+      // }, 200);
+    </script> -->
     <div
       id="main"
       data-framer-hydrate-v2='{"routeId":"augiA20Il","localeId":"default","breakpoints":[{"hash":"72rtr7","mediaQuery":"(min-width: 1200px)"},{"hash":"7lwtj4","mediaQuery":"(min-width: 810px) and (max-width: 1199px)"},{"hash":"upi8ji","mediaQuery":"(max-width: 809px)"},{"hash":"6rg2se","mediaQuery":"(min-width: 1200px)"},{"hash":"148qidq","mediaQuery":"(min-width: 810px) and (max-width: 1199px)"},{"hash":"1hbu3yw","mediaQuery":"(max-width: 809px)"}]}'
@@ -7821,8 +7838,20 @@
         />
       </svg>
     </div>
+
     <!-- Start of bodyEnd -->
 
     <!-- End of bodyEnd -->
+
+    <!-- <script>
+      let intervalId = setInterval(() => {
+        let element = document.getElementById("__framer-editorbar-container");
+        console.log({element})
+        if (element) {
+          element.style.display = "none";
+          clearInterval(intervalId);
+        }
+      }, 200);
+    </script> -->
   </body>
 </html>
